@@ -9,6 +9,19 @@
   .hambarger-icon {
     display: block;
   }
+  .hero-container {
+    flex-direction: column;
+  }
+  .hero-content {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-size: 35px;
+  }
+  .hero-image {
+    width: 100%;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -22,6 +35,18 @@
   .hambarger-icon {
     display: block;
   }
+  .hero-container {
+    flex-direction: column;
+  }
+  .hero-content {
+    width: 100%;
+  }
+  .hero-content h1 {
+    font-size: 35px;
+  }
+  .hero-image {
+    width: 100%;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -34,6 +59,18 @@
   }
   .hambarger-icon {
     display: block;
+  }
+  .hero-container {
+    gap: 20px;
+  }
+  .hero-content {
+    width: 50%;
+  }
+  .hero-content h1 {
+    font-size: 35px;
+  }
+  .hero-image {
+    width: 50%;
   }
 }
 

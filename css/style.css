@@ -45,3 +45,45 @@ body {
 .hambarger-icon i {
   font-size: 30px;
 }
+
+/* hero section styles  */
+.hero-section {
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.hero-content {
+  width: 40%;
+}
+.hero-content h1 {
+  font-size: 48px;
+  color: var(--black);
+  margin-bottom: 25px;
+}
+.hero-content p {
+  color: var(--secondary-color);
+  font-size: 21px;
+  margin-bottom: 45px;
+}
+.hero-content button {
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 9999px;
+}
+.hero-image {
+  width: 60%;
+}
+.hero-image img {
+  width: 100%;
+}
+.style-item-1 {
+  position: absolute;
+  top: 160px;
+  z-index: -1;
+}
