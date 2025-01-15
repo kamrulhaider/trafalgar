@@ -48,6 +48,7 @@ body {
 
 /* hero section styles  */
 .hero-section {
+  margin-bottom: 100px;
 }
 .hero-container {
   display: flex;
@@ -86,4 +87,30 @@ body {
   position: absolute;
   top: 160px;
   z-index: -1;
+}
+
+/* service section styles  */
+.service {
+  margin-bottom: 100px;
+}
+.service-heading {
+  text-align: center;
+}
+.service-heading h4 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+.title-underline {
+  height: 2px;
+  width: 56px;
+  background-color: var(--black);
+  margin: 0 auto;
+  margin-bottom: 33px;
+}
+.service-heading p {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
 }

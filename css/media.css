@@ -22,6 +22,9 @@
   .hero-image {
     width: 100%;
   }
+  .service-heading p {
+    font-size: 16px;
+  }
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -46,6 +49,9 @@
   }
   .hero-image {
     width: 100%;
+  }
+  .service-heading p {
+    font-size: 16px;
   }
 }
 
@@ -79,5 +85,8 @@
 }
 
 /* X-Large devices (large desktops, less than 1400px) */
-@media only screen and (min-width: 1199px) and (max-width: 1399.98px) {
+@media only screen and (min-width: 1199px) {
+  .container {
+    max-width: 1600px;
+  }
 }
